@@ -1,0 +1,66 @@
+debug: true
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webmvc:
+          routes:
+            - id: ms-clientes
+              uri: http://localhost:8081
+              predicates:
+                - Path=/api/v1/clientes/**
+
+            - id: ms-productos
+              uri: http://localhost:8082
+              predicates:
+                - Path=/api/v1/productos/**
+
+            - id: ms-inventario
+              uri: http://localhost:8083
+              predicates:
+                - Path=/api/v1/inventario/**
+
+            - id: ms-pedidos
+              uri: http://localhost:8084
+              predicates:
+                - Path=/api/v1/pedidos/**
+
+            - id: ms-detalle-pedido
+              uri: http://localhost:8085
+              predicates:
+                - Path=/api/v1/detalle-pedido/**
+
+            - id: ms-pagos
+              uri: http://localhost:8086
+              predicates:
+                - Path=/api/v1/pagos/**
+
+            - id: ms-despachos
+              uri: http://localhost:8087
+              predicates:
+                - Path=/api/v1/despachos/**
+
+            - id: ms-usuarios
+              uri: http://localhost:8088
+              predicates:
+                - Path=/api/v1/usuarios/**
+
+            - id: ms-reclamos
+              uri: http://localhost:8089
+              predicates:
+                - Path=/api/v1/reclamos/**
+
+            - id: ms-notificaciones
+              uri: http://localhost:8090
+              predicates:
+                - Path=/api/v1/notificaciones/**
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
