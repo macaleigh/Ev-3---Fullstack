@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for ms-clientes" enabled="true">
+      <profile name="Annotation profile for ms-pedidos" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -13,9 +13,9 @@
         <module name="ms-usuarios" />
         <module name="ms-reclamos" />
         <module name="ms-notificaciones" />
+        <module name="ms-pedidos" />
         <module name="ms-clientes" />
         <module name="ms-productos" />
-        <module name="ms-pedidos" />
         <module name="ms-pagos" />
         <module name="ms-despachos" />
         <module name="ms-detalle-pedido" />
