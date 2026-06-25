@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for ms-notificaciones" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="ms-usuarios" />
+        <module name="ms-reclamos" />
+        <module name="ms-notificaciones" />
+        <module name="ms-productos" />
+        <module name="ms-clientes" />
+        <module name="ms-pedidos" />
+        <module name="ms-pagos" />
+        <module name="ms-despachos" />
+        <module name="ms-detalle-pedido" />
+        <module name="ms-inventario" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-clientes" options="-parameters" />
+      <module name="ms-despachos" options="-parameters" />
+      <module name="ms-detalle-pedido" options="-parameters" />
+      <module name="ms-inventario" options="-parameters" />
+      <module name="ms-notificaciones" options="-parameters" />
+      <module name="ms-pagos" options="-parameters" />
+      <module name="ms-pedidos" options="-parameters" />
+      <module name="ms-productos" options="-parameters" />
+      <module name="ms-reclamos" options="-parameters" />
+      <module name="ms-usuarios" options="-parameters" />
+    </option>
+  </component>
+</project>

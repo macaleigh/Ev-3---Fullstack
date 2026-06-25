@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/clientes/ms-clientes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/despachos/ms-despachos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/detalle-pedido/ms-detalle-pedido/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inventario/ms-inventario/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notificaciones/ms-notificaciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pagos/ms-pagos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pedidos/ms-pedidos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productos/ms-productos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reclamos/ms-reclamos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usuarios/ms-usuarios/src/main/java" charset="UTF-8" />
+  </component>
+</project>
